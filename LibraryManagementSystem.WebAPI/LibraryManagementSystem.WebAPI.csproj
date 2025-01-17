@@ -15,10 +15,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\LibraryManagementSystem.Application\LibraryManagementSystem.Application.csproj" />
     <ProjectReference Include="..\LibraryManagementSystem.Dtos\LibraryManagementSystem.Dtos.csproj" />
     <ProjectReference Include="..\LibraryManagementSystem.Entities\LibraryManagementSystem.Entities.csproj" />

@@ -12,9 +12,10 @@ namespace LibraryManagementSystem.Entities
         public string Title { get; set; }
         public string Description { get; set; }
         public int PageCount {  get; set; }
+        public string BookUrl { get; set; }
         public decimal UnitPrice {  get; set; }
         public int StockCount {  get; set; }
         public int AuthorId {  get; set; }
-        public List<Author> Authors { get; set; }
+        public Author Author { get; set; }
     }
 }

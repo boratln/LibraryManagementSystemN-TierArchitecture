@@ -10,6 +10,7 @@ namespace LibraryManagementSystem.Entities
     {
         public int BookLoanId {  get; set; }
         public int MemberId {  get; set; }
+        public Member Member { get; set; }
 
     }
 }

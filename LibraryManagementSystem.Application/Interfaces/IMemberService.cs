@@ -1,4 +1,5 @@
-﻿using LibraryManagementSystem.Entities;
+﻿using AutoMapper.Execution;
+using LibraryManagementSystem.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace LibraryManagementSystem.Application.Interfaces
 {
-    public interface IBookRepository:IRepository<Book>
+    public interface IMemberService:IService<Entities.Member>
     {
     }
 }

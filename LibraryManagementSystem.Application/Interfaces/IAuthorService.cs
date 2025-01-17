@@ -7,7 +7,8 @@ using System.Threading.Tasks;
 
 namespace LibraryManagementSystem.Application.Interfaces
 {
-    public interface IBookRepository:IRepository<Book>
+    public interface IAuthorService:IService<Author>
     {
+        Author TSearchAuthor(string word);
     }
 }

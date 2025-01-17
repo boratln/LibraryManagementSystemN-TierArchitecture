@@ -25,6 +25,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryManagementSystem.Persistence", "LibraryManagementSystem.Persistence\LibraryManagementSystem.Persistence.csproj", "{3FB30F54-216E-4C32-B39B-86C24586F513}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryManagementSystem.WebUI", "LibraryManagementSystem.WebUI\LibraryManagementSystem.WebUI.csproj", "{84B89F61-2542-4DE3-9701-01CEE89B8802}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{3FB30F54-216E-4C32-B39B-86C24586F513}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3FB30F54-216E-4C32-B39B-86C24586F513}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3FB30F54-216E-4C32-B39B-86C24586F513}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84B89F61-2542-4DE3-9701-01CEE89B8802}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84B89F61-2542-4DE3-9701-01CEE89B8802}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84B89F61-2542-4DE3-9701-01CEE89B8802}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84B89F61-2542-4DE3-9701-01CEE89B8802}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -63,5 +69,6 @@ Global
 		{674217C9-FFF7-4548-B01C-BFB5D8E3EB47} = {D7F92A26-0C8B-4CB7-8A0A-4E2B27E5F1E4}
 		{A43F917A-FB42-402C-8C52-85B9EAB2F564} = {D7F92A26-0C8B-4CB7-8A0A-4E2B27E5F1E4}
 		{3FB30F54-216E-4C32-B39B-86C24586F513} = {1406BCDF-E93C-452B-8F82-5C1BBBA7D034}
+		{84B89F61-2542-4DE3-9701-01CEE89B8802} = {751E4467-18FC-4427-953E-BB286D524076}
 	EndGlobalSection
 EndGlobal

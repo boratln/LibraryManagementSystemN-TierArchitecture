@@ -14,5 +14,6 @@ namespace LibraryManagementSystem.Entities
         public int Age {  get; set; }
         public string ShortDesc {  get; set; }
         public string AuthorImageBase64 {  get; set; }
+        public List<Book> Books { get; set; }
     }
 }

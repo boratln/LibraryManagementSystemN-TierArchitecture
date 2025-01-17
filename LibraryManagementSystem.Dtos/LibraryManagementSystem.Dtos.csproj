@@ -10,4 +10,8 @@
     <None Remove="BookLoanDtos\x3g5oqk3.po0~" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="5.0.17" />
+  </ItemGroup>
+
 </Project>

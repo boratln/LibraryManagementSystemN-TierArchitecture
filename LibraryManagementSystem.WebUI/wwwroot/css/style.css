@@ -1,0 +1,26 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: auto;
+}
+
+ul {
+    margin-right: 5%;
+}
+
+.collapse {
+    margin-right: 15%;
+}
+
+#carouselExampleIndicators {
+    margin-top: 2%;
+}
+
+.carousel-inner img {
+    max-height: 450px;
+}

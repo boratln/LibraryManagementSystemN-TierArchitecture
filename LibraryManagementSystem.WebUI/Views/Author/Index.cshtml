@@ -1,0 +1,49 @@
+﻿@model List<ResultAuthorDto>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Default/UILayout.cshtml";
+}
+
+<br />
+<h2>Yazarlar</h2>
+<form class="d-flex" asp-controller="Author" asp-action="Search" role="search">
+    <input class="form-control me-2" style="width:50%" type="search" name="word" placeholder="Search" aria-label="Search">
+    <button class="btn btn-outline-success" type="submit">Ara</button>
+</form>
+<hr />
+
+<div class="content">
+
+
+    <div class="book-list">
+        <div class="container-fluid">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                @foreach(var data in Model){
+ <div class="col">
+                    <div class="card">
+                        <img src="data:image/png;base64,@data.AuthorImageBase64" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">@data.Name @data.Surname</h5>
+                            <p class="card-text">@data.ShortDesc</p>
+                        </div>
+                    </div>
+                </div>
+                }
+               
+          
+            </div>
+        </div>
+    </div>
+    <br />
+    <nav aria-label="Page navigation example">
+        <ul class="pagination">
+            <li class="page-item"><a class="page-link" href="#"> << </a></li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#"> >></a></li>
+        </ul>
+    </nav>
+</div>
+
+
